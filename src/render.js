@@ -1,4 +1,4 @@
-import basic from './getData'
+import basic from './fetch'
 
 
 
