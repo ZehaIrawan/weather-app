@@ -12,14 +12,14 @@ function addEventListener() {
   celcius.addEventListener('click', () => {
     const temp = document.querySelector('#temp');
     const justNumber = parseInt(temp.innerHTML);
-    temp.innerHTML = `${(((justNumber - 32) * 5) / 9).toFixed(2)} C`;
+    temp.innerHTML = `${Math.round((((justNumber - 32) * 5) / 9))} C`;
   });
 
   const fahrenheit = document.querySelector('#f');
   fahrenheit.addEventListener('click', () => {
     const temp = document.querySelector('#temp');
     const justNumber = parseInt(temp.innerHTML);
-    temp.innerHTML = `${((justNumber * 9) / 5 + 32).toFixed(2)} F`;
+    temp.innerHTML = `${Math.round(((justNumber * 9) / 5 + 32))} F`;
   });
 }
 
