@@ -1,0 +1,33 @@
+body{
+    background-image: url('https://www.maxpixel.net/static/photo/2x/Rain-Pavement-Rural-Wet-Trees-Road-Raining-2616834.jpg')
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 60vh;
+    margin: 5% auto;
+    background-color: #85dcba;
+    /* color: #ffff; */
+    align-items: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  
+  }
+  
+  #userInput {
+    display: block;
+    width: 150px;
+    height: 20px;
+  }
+  #weather {
+    display: block;
+  }
+  
+  #weather-icon {
+    font-size: 500px;
+  }
+  
