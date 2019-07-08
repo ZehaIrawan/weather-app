@@ -9,8 +9,8 @@
   </head>
   <body>
     <div class="content">
-      <h1>Rain Check 1.0</h1>
-      <input type="text" placeholder="Your City" id="userInput" />
+      <h1 id="title">Rain Check 1.1</h1>
+      <input type="text" placeholder="Your City" id="userInput" required/>
 
       <button id="checkWeather">Check Weather</button>
       <div id="weather"></div>
@@ -18,10 +18,12 @@
       <div id="desc"></div>
       <div id="temp"></div>
       <img alt="" id="icon" />
+      <div class="toggle">
       <label
         >Celcius <input type="radio" name="trans" id="c" checked="true"
       /></label>
       <label>Fahrenheit<input type="radio" id="f" name="trans"/></label>
+    </div>
     </div>
   </body>
 </html>
